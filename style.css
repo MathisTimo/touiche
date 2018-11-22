@@ -1,0 +1,363 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
+body {
+  background-color: #ffffff;
+  margin: 0px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4f3490;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+.btop {
+  display: block;
+  color: #eadbff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  margin-top: 8px;
+}
+
+.buta{
+  margin-top: 4px;
+}
+
+#Menu{
+
+}
+
+.but {
+  background-color: #6342A3;
+  border-radius: 5px;
+  height: 40px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-family: Roboto, sans-serif;
+}
+#bitss {
+  margin-top: 4px;
+}
+#bits {
+  background-color: rgb(0, 0, 0,);
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 20px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: Roboto, sans-serif;
+}
+
+.but:hover {
+  background-color: #7D5BBD;
+}
+
+
+li a:hover:not(.Menu) {
+  text-decoration: underline;
+  color : white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+  margin-top: 62px;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.search-container{
+  margin-top: 14px;
+  margin-left:10px;
+  display : inline-block;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+#search{
+  border-radius: 0px 5px 5px 0px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 50px;
+  padding-left: 10px;
+  box-shadow: none;
+  border: 0px solid white;
+  margin-bottom: 5px;
+  font-size: 15px;
+  opacity: 0.78;
+
+}
+#loupe{
+  border-radius: 8px 0px 0px 8px;
+  background-color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: -5px;
+  width: 20px;
+  height: 20px;
+}
+
+#foot {
+  background-color: #0f0027
+}
+
+
+.fafa-search{
+}
+
+#bartop {
+  height: 65px;
+  display: inline-block;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#home{
+  background-color: rgb(23, 20, 31);
+  margin-top: -7px;
+  
+}
+
+#bg {
+  position: relative;
+  display: inline;
+  
+}
+
+#gradient {
+  position: absolute;
+  margin-top: -684px;
+ 
+}
+
+#bloc {
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 300px;
+  margin-right: auto;
+}
+
+#cote {
+  position: absolute;
+  left: 620px;
+  width: 300px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.48);
+  
+}
+
+#player {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+ 
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  color: #d0aafc;
+  margin-left: 20px;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#st {
+  margin-left: 700px;
+  margin-top: -63px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 21px
+}
+
+#desc {
+  font-family: Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bande {
+  position: absolute;
+  top: 600px;
+  margin-left: 310px;
+  
+}
+
+
+
+
+
+
+#page
+{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  width:80%;
+  float: right;
+}
+
+.folow
+{
+  border-radius: 5px;
+  visibility: hidden;
+  padding: 5px;
+  position: absolute;
+  right: 0px;
+
+}
+.folow:hover
+{
+  color: rgb(119,95,184);
+}
+@keyframes example {
+  100%  { right:20px;}
+}
+
+
+
+.contenu {
+
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.contenu a {
+
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.contenu a:hover 
+{
+  background-color: #f1f1f1
+
+
+}
+
+
+
+.casejeu a
+{
+  text-decoration: none;
+  color: black; 
+  font-family: Roboto, sans-serif;
+  
+}
+.casejeu a:hover
+{
+  color:rgb(89,57,154);
+
+}
+.a p
+{
+  margin-top: -10px;
+  margin-left: 10px;
+  color: black;
+  font-size: 18px;
+ 
+}
+.spectateurs
+{
+  margin-top: -16px;
+  margin-left: 10px;
+  font-size: 13px;
+  color: grey;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+.vignette
+{
+  margin: 10px;
+  border-radius: 4px;
+  width: 140px;
+  height: 200px;
+}
+#jeu
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 300px;
+  padding-top: 50px;
+  padding-bottom: 200px
+  
+}
+.a 
+{
+  flex-direction: wrap;
+  flex-direction: column;
+}
+
+#toui {
+  margin-left: 620px;
+  padding: 60px;
+  width: 100px
+}
